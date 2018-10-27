@@ -6,5 +6,5 @@ IndexTemplate = 'index.html'
 
 @app.route('/')
 @app.route('/jobs')
-def jogibs():
+def jobs():
     return render_template('index.html')
